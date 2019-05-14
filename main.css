@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Arial',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ ゴシック',sans-serif;
+}
+
+* {
+    margin: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+
+
+.button {
+     position: relative;
+    text-decoration: none;
+    background: red;
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    line-height: 50px;
+    width: 150px;
+}
