@@ -4,8 +4,16 @@ body {
     font-family: 'Arial',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ ゴシック',sans-serif;
 }
 
+a {
+  background-color: transparent;
+}
+
 * {
     margin: 20px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
 }
 
 h1 {
@@ -25,14 +33,53 @@ h4 {
 }
 
 
+p {
+    font-size: 1rem;
+}
 
 .button {
-     position: relative;
+    display: block;
+    position: relative;
     text-decoration: none;
-    background: red;
+    text-align: center;
+    font-weight: bold;
+    background: #f44262;
     color: white;
-    border-radius: 10px;
-    height: 50px;
-    line-height: 50px;
+    border-radius: 30px;
+    height: 60px;
+    line-height: 60px;
     width: 150px;
+}
+
+.btn-primary {
+    background: #3172ea;
+}
+
+.btn-success {
+    background: #39ce7a;
+}
+
+.btn-danger {
+    background: #f44262;
+}
+
+.btn-warning {
+    background: #f7d00e;
+    color: #333;
+}
+
+
+.btn-info {
+    background: #720df7;
+}
+
+.btn-small {
+    height: 40px;
+    line-height: 40px;
+    width: 110px;
+}
+
+.card {
+    border: solid 1px #333;
+    border-radius: 8px;
 }
