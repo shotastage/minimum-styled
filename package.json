@@ -1,10 +1,11 @@
 {
   "name": "minimum-styled",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Super minimum CSS framework for noscript browser.",
+  "main": "minimum-styled.css",
   "files": [
     "LICENSE",
-    "main.css"
+    "minimum-styled.css"
   ],
   "repository": "git@github.com:shotastage/minimum-styled.git",
   "author": "Shota Shimazu <hornet.live.mf@gmail.com>",
